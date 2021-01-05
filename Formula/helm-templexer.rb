@@ -11,6 +11,13 @@ class HelmTemplexer < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/hendrikmaus/homebrew-tap/releases/download/helm-templexer-0.2.2_1"
+    cellar :any_skip_relocation
+    sha256 "8add6f02dc559df19e8101a1a672326c6dd47803f19a08bfc09e00d21fe1bfd5" => :catalina
+    sha256 "e116aeb4daac888779bef95026d8cfd4ca13261d222dfd7a71805a158844cd6e" => :x86_64_linux
+  end
+
   head do
     url "https://github.com/hendrikmaus/helm-templexer.git"
   end
