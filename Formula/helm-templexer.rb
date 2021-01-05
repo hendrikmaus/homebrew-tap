@@ -22,6 +22,6 @@ class HelmTemplexer < Formula
   end
 
   test do
-    assert_match "helm-templexer", shell_output("#{bin} help")
+    assert_match "helm-templexer", shell_output("#{bin}/helm-templexer help")
   end
 end
