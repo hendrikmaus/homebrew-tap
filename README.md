@@ -1,4 +1,4 @@
-# Hendrikmaus Tap
+# Homebrew Tap
 
 ## How do I install these formulae?
 `brew install hendrikmaus/tap/<formula>`
