@@ -14,4 +14,4 @@ Or `brew tap hendrikmaus/tap` and then `brew install <formula>`.
 
 - Add the formula to the `Formula` directory
 - Open a pull-request and wait for its checks
-- Once good, ad the label `pr-pull` and wait for the release
+- Once good, add the label `pr-pull` and wait for the release
