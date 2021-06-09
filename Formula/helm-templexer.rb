@@ -1,7 +1,7 @@
 class HelmTemplexer < Formula
   desc "Render Helm charts for multiple environments using explicit configuration"
   homepage "https://github.com/hendrikmaus/helm-templexer"
-  url "https://github.com/hendrikmaus/helm-templexer/archive/v0.2.7.tar.gz"
+  url "https://github.com/hendrikmaus/helm-templexer/archive/refs/tags/0.2.7.tar.gz"
   sha256 "50407bc373f5a6193a7418c6772115769bce4ce15ebe58cc20ba5c9e91b73051"
   license "MIT"
   revision 1
