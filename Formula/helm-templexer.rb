@@ -12,9 +12,9 @@ class HelmTemplexer < Formula
   end
 
   bottle do
-    root_url "https://github.com/hendrikmaus/homebrew-tap/releases/download/helm-templexer-0.2.8_1"
-    sha256 cellar: :any_skip_relocation, catalina:     "3469b73cc034ed8268cad17e88731603c69ce7b601ebf58349505665b9c7b243"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "7fc093952c206ee214064d654fba165b2d394041d10a172fa894133684d8c420"
+    root_url "https://github.com/hendrikmaus/homebrew-tap/releases/download/helm-templexer-0.2.11_1"
+    sha256 cellar: :any_skip_relocation, catalina:     "574a3953c67f7d088657bcba3aeed75ea558c8b960171d497692473cfcc4e70f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "453e80bfd9bdf3e329abbe575e7e49c21c6092cff72dec647964e871363a838e"
   end
 
   head do
