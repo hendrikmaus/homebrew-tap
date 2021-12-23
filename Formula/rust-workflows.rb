@@ -20,8 +20,8 @@ class RustWorkflows < Formula
   def install
     system "cargo", "install", *std_cargo_args
   end
-
+  
   test do
-    assert_match "hello, world!", shell_output("RUST_LOG=info #{bin}/rust-workflows")
+    system "#{bin}/rust-workflows"
   end
 end
