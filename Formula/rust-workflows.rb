@@ -3,7 +3,6 @@ class RustWorkflows < Formula
   homepage "https://github.com/hendrikmaus/rust-workflows"
   url "https://github.com/hendrikmaus/rust-workflows/archive/refs/tags/v0.3.1.tar.gz"
   sha256 "c29c863677871ea91d3f2df58a618d95bbb260dd6ca254027760a9cf9bb795c6"
-  branch "master"
   license "MIT"
   revision 1
 
