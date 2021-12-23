@@ -12,7 +12,7 @@ class RustWorkflows < Formula
   end
 
   head do
-    url "https://github.com/hendrikmaus/rust-workflows.git", :branch => "master"
+    url "https://github.com/hendrikmaus/rust-workflows.git", branch: "master"
   end
 
   depends_on "rust" => :build
