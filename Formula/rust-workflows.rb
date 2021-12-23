@@ -1,8 +1,8 @@
 class RustWorkflows < Formula
   desc "Reference project for GitHub Action workflows to use on Rust projects"
   homepage "https://github.com/hendrikmaus/rust-workflows"
-  url "https://github.com/hendrikmaus/rust-workflows/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "54057b67ef1909b8bcfd8ade3b8caa1a04994b9e2f839576671fb33236a833e5"
+  url "https://github.com/hendrikmaus/rust-workflows/archive/refs/tags/v0.4.3.tar.gz"
+  sha256 "7a47e48854fe9f62db2f0ccfa63b722f10042c9e288a545d8e9f9665a508da34"
   license "MIT"
 
   livecheck do
