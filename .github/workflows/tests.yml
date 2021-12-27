@@ -41,3 +41,14 @@ jobs:
         with:
           name: bottles
           path: '*.bottle.*'
+  
+  # After the matrix job above, add the "pr-pull" label to commence with auto-merging.
+  label:
+    name: Add pr-pull label
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Add label
+        env:
+          GITHUB_TOKEN: ${{ secrets.LABEL_TOKEN }}
+        run: |
+          gh pr edit --add-label "pr-pull" "${{ github.event.number }}"
