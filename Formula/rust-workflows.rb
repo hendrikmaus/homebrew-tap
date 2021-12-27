@@ -11,9 +11,9 @@ class RustWorkflows < Formula
   end
 
   bottle do
-    root_url "https://github.com/hendrikmaus/homebrew-tap/releases/download/rust-workflows-0.8.0"
-    sha256 cellar: :any_skip_relocation, big_sur:      "c1f9d1b1eb7cb5b5e83345a096d25fda78bc9225a6c4144f25eecbf8fca59928"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "9362791937be4adc7b8b163d9122069f280b398ce7c2b4eb9b3e5b3b1f599a86"
+    root_url "https://github.com/hendrikmaus/homebrew-tap/releases/download/rust-workflows-0.8.2"
+    sha256 cellar: :any_skip_relocation, big_sur:      "ce5b5e76def954fa54e5a74f9c29994ebb470e46306b13092c65c5261f756385"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "85473d17882e35cc8f498c7af9741db925cf46225265030203a852c6e8762873"
   end
 
   head do
